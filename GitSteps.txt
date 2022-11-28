@@ -1,0 +1,4 @@
+1) create repo on github
+2) clone it into local machine
+3) for updation 
+	1) git add .
