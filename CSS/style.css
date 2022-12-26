@@ -1,0 +1,13 @@
+/* never contain HTML tags or anything else exepts css props */
+/* selector{
+    property: value;
+} */
+h5{
+    color: rgb(12, 65, 65);
+}
+h2{
+    color: teal;
+}
+h3{
+    color: rgb(74, 114, 13);
+}
