@@ -16,7 +16,7 @@
                 "nav  nav"
                 "main  foot";
             grid-template-rows: 50px 1fr 30px;
-            grid-template-columns: 150px 1fr;
+            grid-template-columns: 150px 1fr 150px;
         }
         /* @media screen {
             
@@ -25,12 +25,16 @@
         @media (min-width:700px) {
             #page {
                 grid-template-areas:
-                    "kaipan kaipan"
-                    "foot main"
-                    "nav  nav"
+                    "kaipan kaipan kaipan"
+                    "foot main bijodiv"
+                    "nav  nav nav"
             }
         }
 
+        #page>.other {
+            grid-area: bijodiv;
+            background-color: #0b1237;
+        }
         #page>header {
             grid-area: kaipan;
             background-color: #8ca0ff;
@@ -58,6 +62,7 @@
         <header>Header</header>
         <nav>Navigation</nav>
         <main>Main area</main>
+        <div class="other" >other</div>
         <footer>Footer</footer>
     </section>
 </body>
