@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid;
+    font-family: sans-serif;
+}
+.header-bg{
+    background:url(../images/RectangleBg.png) ;
+    height: 100vh;
+}
+.row{
+    display: flex;
+}
+.ml-a{
+    margin-left: auto;
+}
+.header-menu{
+    /* line-height: 50px; */
+    vertical-align: middle;
+    padding-top: 10px;
+    /* margin-top: 50px; */
+}
+.menu-right div{
+    line-height: initial;
+}
+.logo img{
+    padding: 10px 0;
+}
+.menu-right-top span{
+    vertical-align: top;
+    margin-top: 5px;
+    display: inline-block;
+}
+/* .nav-bar{
+    display: flex;
+} */
+.nav-bar li{
+    display: inline-block;
+}
+.nav-bar li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
