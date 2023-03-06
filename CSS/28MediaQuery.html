@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 1px solid;
+      }
+      .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+      }
+      .col-25 {
+        width: 100%;
+        padding: 0 15px;
+      }
+      .col-50 {
+        width: 100%;
+        padding: 0 15px;
+      }
+      .col-100 {
+        width: 100%;
+        padding: 0 15px;
+      }
+      .col-33 {
+        width: 100%;
+        padding: 0 15px;
+      }
+      p {
+        box-shadow: 2px 2px 5px grey;
+      }
+      @media (min-width: 576px) {
+        .container {
+          width: 540px;
+        }
+        .col-25 {
+          width: 50%;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          width: 720px;
+        }
+        .col-25 {
+          width: 50%;
+          padding: 0 15px;
+        }
+        .col-50 {
+          width: 100%;
+          padding: 0 15px;
+        }
+        .col-100 {
+          width: 100%;
+          padding: 0 15px;
+        }
+        .col-33 {
+          width: 50%;
+          padding: 0 15px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          width: 940px;
+        }
+        .col-25 {
+          width: 25%;
+        }
+      }
+      @media (min-width: 1200px) {
+        .container {
+          width: 1140;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <p>lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quae aut maiores nihil provident saepe vel ipsam perspiciatis veniam, dolore sit reiciendis fuga, doloribus cumque dolorum! Labore quia a magni.</p> -->
+      <div class="row">
+        <div class="col-25">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            qui minus, maxime eius, quos recusandae inventore similique omnis
+            consequuntur exercitationem voluptate! Aspernatur, hic! Culpa ipsam
+            saepe id, harum facere aperiam.
+          </p>
+        </div>
+        <div class="col-25">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            qui minus, maxime eius, quos recusandae inventore similique omnis
+            consequuntur exercitationem voluptate! Aspernatur, hic! Culpa ipsam
+            saepe id, harum facere aperiam.
+          </p>
+        </div>
+        <div class="col-25">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            qui minus, maxime eius, quos recusandae inventore similique omnis
+            consequuntur exercitationem voluptate! Aspernatur, hic! Culpa ipsam
+            saepe id, harum facere aperiam.
+          </p>
+        </div>
+        <div class="col-25">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            qui minus, maxime eius, quos recusandae inventore similique omnis
+            consequuntur exercitationem voluptate! Aspernatur, hic! Culpa ipsam
+            saepe id, harum facere aperiam.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

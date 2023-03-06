@@ -1,0 +1,8 @@
+ul li {
+        list-style-image: url(arrow.png);
+}
+
+/* 
+        ul {
+                list-style: disc;
+        } */
